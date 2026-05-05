@@ -1,0 +1,91 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Main container */
+.container {
+    height: 100vh;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Heading */
+.heading {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    color: #f0f0f0;
+    margin-bottom: 30px;
+}
+
+/* Card */
+.container_middle {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    gap: 40px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Right side */
+.right h2 {
+    margin-bottom: 10px;
+}
+
+.Date {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+.anotherdiv {
+    display: flex;
+    gap: 10px;
+}
+
+.button65 {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background: #4facfe;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button65:hover {
+    background: #007bff;
+}
+
+/* Left side */
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftage {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.age_heading {
+    font-size: 40px;
+    color: #4facfe;
+    font-weight: bold;
+}
